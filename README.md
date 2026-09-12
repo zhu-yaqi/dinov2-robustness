@@ -34,6 +34,11 @@
 | DINOv2 ViT-S/14   |     97.45 |     82.66 |     70.91 |     97.56 |      93.83 |           86.24 |
 | **DINOv2 + Ours** | **97.67** | **85.05** | **72.58** | **97.75** |  **94.78** |       **87.54** |
 
+### Clean 与平均扰动准确率
+
+![Clean vs Corrupted](results/figures/clean_vs_corrupted.png)
+
+
 相比原始 DINOv2：
 
 ```text
@@ -280,6 +285,9 @@ L_total = L_cls + λ · L_consistency
 λ = 0.5
 λ = 1.0
 ```
+### 一致性权重消融
+
+![Lambda Ablation](results/figures/lambda_ablation.png)
 
 ---
 
