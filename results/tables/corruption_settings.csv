@@ -1,0 +1,5 @@
+corruption,parameter,L1,L2,L3,L4,L5
+Occlusion,ratio,0.10,0.20,0.30,0.40,0.50
+Gaussian Noise,sigma,0.05,0.10,0.15,0.20,0.25
+Gaussian Blur,sigma,0.50,1.00,1.50,2.00,2.50
+Brightness,factor,0.80,0.60,0.40,0.25,0.10

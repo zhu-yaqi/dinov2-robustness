@@ -1,0 +1,6 @@
+configuration,clean,occlusion_mean,corruption_mean
+DINOv2,97.45,82.66,86.24
+lambda_0,97.53,83.19,86.48
+lambda_0.1,97.53,84.68,87.44
+lambda_0.5,97.67,85.05,87.54
+lambda_1.0,97.57,84.92,86.97

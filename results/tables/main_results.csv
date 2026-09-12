@@ -1,0 +1,5 @@
+model,clean,occlusion,noise,blur,brightness,corruption_mean
+ResNet50,92.31,77.45,39.44,90.92,90.73,74.64
+ConvNeXt V2 Tiny,94.47,83.70,68.64,92.46,89.05,83.46
+DINOv2 ViT-S/14,97.45,82.66,70.91,97.56,93.83,86.24
+DINOv2 + Ours,97.67,85.05,72.58,97.75,94.78,87.54
